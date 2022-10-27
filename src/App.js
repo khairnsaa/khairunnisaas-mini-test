@@ -33,6 +33,7 @@ function App() {
                 </form>
             </header>
             <section className="task-list">
+                <h1>Todo List</h1>
                 <ul>
                     {
                         taskList.map(task => (

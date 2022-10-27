@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
 }
 
 header{
@@ -49,6 +57,7 @@ header p { margin-top: 0.5rem;}
 .task-list{
   margin: 1rem;
   padding: 0.5rem 1rem;
+  text-align: center;
 }
 
 .task-list ul{
@@ -73,6 +82,7 @@ header p { margin-top: 0.5rem;}
     grid-template-columns: repeat(3, 1fr);
     width: 80%;
     margin: auto;
+    margin-top: 1rem;
   }
 
   .input-todo{
